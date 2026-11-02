@@ -1,0 +1,14 @@
+/* catalogue: replace with live stock. img = path in public/images */
+export const products = [
+  {brand:"Nike", name:"Air Jordan 1 High OG", img:"/images/jordan1-a.jpg", imgs:["/images/jordan1-a.jpg","/images/jordan1-b.jpg","/images/jordan1-c.jpg"], type:"Men's shoes", cat:["court","lifestyle"], mrp:16995, price:9999, sizes:[7, 8, 9, 10, 11], tag:"Limited stock", isNew:true},
+  {brand:"Adidas", name:"Samba OG", img:"/images/samba-a.jpg", imgs:["/images/samba-a.jpg","/images/samba-b.jpg","/images/samba-c.jpg"], type:"Unisex shoes", cat:["lifestyle","women"], mrp:10999, price:5499, sizes:[5,6,7,8,9,10], tag:"Just in", isNew:true},
+  {brand:"Nike", name:"Dunk Low Black Red", img:"/images/dunkbr-a.jpg", imgs:["/images/dunkbr-a.jpg","/images/dunkbr-b.jpg","/images/dunkbr-c.jpg"], type:"Unisex shoes", cat:["lifestyle","court","women"], mrp:8695, price:4999, sizes:[5,6,7,8,9,10], tag:"Just in", isNew:true},
+  {brand:"Nike", name:"Air Max 90", img:"/images/am90-a.jpg", imgs:["/images/am90-a.jpg","/images/am90-b.jpg","/images/am90-c.jpg"], type:"Men's shoes", cat:["lifestyle","running"], mrp:13995, price:7999, sizes:[7, 8, 9, 10, 11], tag:"Bestseller", isNew:true},
+  {brand:"Nike", name:"Air Max 90 Women's", img:"/images/am90w-a.jpg", imgs:["/images/am90w-a.jpg","/images/am90w-b.jpg","/images/am90w-c.jpg"], type:"Women's shoes", cat:["women","lifestyle","running"], mrp:12995, price:7499, sizes:[4, 5, 6, 7, 8], tag:"Just in", isNew:true},
+  {brand:"Adidas", name:"NMD R1", img:"/images/nmd-a.jpg", imgs:["/images/nmd-a.jpg","/images/nmd-b.jpg","/images/nmd-c.jpg"], type:"Men's shoes", cat:["lifestyle","running"], mrp:13999, price:6999, sizes:[7, 8, 9, 10], tag:"", isNew:true},
+  {brand:"ASICS", name:"Gel-1130", img:"/images/gel1130-a.jpg", imgs:["/images/gel1130-a.jpg","/images/gel1130-b.jpg","/images/gel1130-c.jpg"], type:"Running shoes", cat:["running","women"], mrp:11999, price:5999, sizes:[5, 6, 7, 8, 9, 10], tag:"Limited stock"},
+  {brand:"New Balance", name:"574", img:"/images/nb574-a.jpg", imgs:["/images/nb574-a.jpg","/images/nb574-b.jpg","/images/nb574-c.jpg"], type:"Women's shoes", cat:["women","lifestyle"], mrp:8999, price:4999, sizes:[4, 5, 6, 7, 8], tag:""},
+  {brand:"Adidas", name:"Yeezy Boost 350 V2", img:"/images/yeezy-a.jpg", imgs:["/images/yeezy-a.jpg","/images/yeezy-b.jpg","/images/yeezy-c.jpg"], type:"Unisex shoes", cat:["lifestyle"], mrp:22999, price:11999, sizes:[6, 7, 8, 9, 10], tag:"Limited stock"},
+  {brand:"Puma", name:"Speedcat", img:"/images/speedcat-a.jpg", imgs:["/images/speedcat-a.jpg","/images/speedcat-b.jpg","/images/speedcat-c.jpg"], type:"Unisex shoes", cat:["lifestyle","women"], mrp:10999, price:5499, sizes:[5, 6, 7, 8, 9], tag:""},
+  {brand:"New Balance", name:"1906R", img:"/images/nb1906r-a.jpg", imgs:["/images/nb1906r-a.jpg","/images/nb1906r-b.jpg","/images/nb1906r-c.jpg"], type:"Running shoes", cat:["running","lifestyle"], mrp:17999, price:9999, sizes:[7, 8, 9, 10, 11], tag:"Just in"}
+];
